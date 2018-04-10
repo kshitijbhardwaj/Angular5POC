@@ -1,0 +1,16 @@
+<table border=1 frame=void rules=rows>
+  <thead >
+    <tr style="font-size: 20px;font-weight: 400">
+      <td>TrackId</td>
+      <td>RailcarId</td>
+      <td>Sequence</td>
+    </tr>
+  </thead>
+  <tbody style="cursor:pointer">
+    <tr *ngFor="let d of mydata" style="line-height: 20px" (click)="rowSelected(d)">
+      <td>{{d.trackid}}</td>
+      <td>{{d.trainid}}</td>
+      <td>{{d.sequence}}</td>
+    </tr>
+  </tbody>
+</table>

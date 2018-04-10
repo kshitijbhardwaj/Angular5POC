@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container > div {
+  width: 500px;
+  text-align: center;
+  font-size: 12px;
+}
